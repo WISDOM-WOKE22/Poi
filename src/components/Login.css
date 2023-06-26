@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .logo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  .logo span {
+    color: red;
+  }
+  
+  .container {
+    width: 100%;
+    padding-top: 70px;
+    max-width: 1382px;
+  }
+  .container .left, .container .right {
+    width: 45%;
+    display: inline-block;
+  }
+  .container .left {
+    overflow: hidden;
+  }
+  .container .left img {
+    width: 100%;
+  }
+  .container .right {
+    background-color: white;
+  }
+  .container .right .main-content {
+    width: 100%;
+    padding: 15px;
+  }
+  .container .right .main-content .title {
+    text-align: center;
+  }
+  .container .right .main-content .title h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .right .main-content .title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(128, 128, 128, 0.425);
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .container .right .main-content .first-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.425);
+    margin-top: 15px;
+  }
+  .container .right .main-content .form-top {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .container .right .main-content .form-top input {
+    width: 45%;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.425);
+  }
+  .container .right .main-content .form-top input:focus {
+    outline: 0;
+    border: 2px solid blue;
+  }
+  .container .right .main-content .other-sections {
+    padding: 10px;
+  }
+  .container .right .main-content .other-sections input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.425);
+    margin-bottom: 20px;
+  }
+  .container .right .main-content .other-sections input:focus {
+    outline: 0;
+    border: 2px solid blue;
+  }
+  .container .right .main-content .other-sections .password {
+    height: 49px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.425);
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: solid rgba(128, 128, 128, 0.425);
+  }
+  .container .right .main-content .other-sections .password input {
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 90%;
+    border: 0;
+  }
+  .container .right .main-content .terms-section {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(128, 128, 128, 0.425);
+  }
+  .container .right .main-content .terms-section span {
+    color: black;
+    font-weight: bold;
+  }
+  .container .right .main-content .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .right .main-content .submit-btn button {
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 85%;
+    cursor: pointer;
+  }
+  .container .right .main-content .submit-btn button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .invalidinput {
+    opacity: 0.4;
+  }
+
+
+
+
+
+  @media all and (max-width: 1146px) { /* your content here */ 
+
+    .container .left, .container .right{
+
+        display: block;
+        width: 90%;
+    }
+
+
+}
